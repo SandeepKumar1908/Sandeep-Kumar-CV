@@ -216,6 +216,10 @@ footer {
     flex-direction: row;
     justify-content: space-around;
   }
+  
+  .sec-1 .about {
+    padding: 1.5rem;
+  }
 
   .sec-1 .about .content {
     gap: 2rem;
@@ -240,6 +244,18 @@ footer {
     display: block;
     width: 100%;
     margin: 0 auto;
+  }
+  
+  .sec-2 .work {
+    padding: 1.5rem;
+  }
+
+  .sec-3 .education {
+    padding: 1.5rem;
+  }
+
+  .sec-4 .contact {
+    padding: 1.5rem;
   }
 }
 
