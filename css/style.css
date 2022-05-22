@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-black: #000;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-primary-rgb: 13, 110, 253;
+  --bs-secondary-rgb: 108, 117, 125;
+  --bs-success-rgb: 25, 135, 84;
+  --bs-info-rgb: 13, 202, 240;
+  --bs-warning-rgb: 255, 193, 7;
+  --bs-danger-rgb: 220, 53, 69;
+  --bs-light-rgb: 248, 249, 250;
+  --bs-dark-rgb: 33, 37, 41;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-black-rgb: 0, 0, 0;
+  --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(90deg, #FFBC80, #FF9F45, #F76E11, #FC4F4F);
+  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-body-color: #212529;
+  --bs-body-bg: #fff;
+  --bs-border-width: 1px;
+  --bs-border-style: solid;
+  --bs-border-color: #dee2e6;
+  --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+  --bs-border-radius: 0.375rem;
+  --bs-border-radius-sm: 0.25rem;
+  --bs-border-radius-lg: 0.5rem;
+  --bs-border-radius-xl: 1rem;
+  --bs-border-radius-2xl: 2rem;
+  --bs-border-radius-circle: 25rem;
+  --bs-border-radius-pill: 50rem;
+  --bs-heading-color: ;
+  --bs-link-color: #0d6efd;
+  --bs-link-hover-color: #0a58ca;
+  --bs-code-color: #d63384;
+  --bs-highlight-bg: #fff3cd;
+}
+
+body {
+  background: #FC4F4F;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+}
+
+main {
+  color: var(--bs-white);
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: var(--bs-white);
+}
+
+.muted {
+  color: var(--bs-gray-400);
+}
+
+/* NAVBAR */
+.navbar {
+  background: rgba(255, 255, 255, 0.100);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+.navbar-brand {
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+}
+
+.navbar-nav {
+  font-weight: normal;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+/* Main */
+.sec-1 .about {
+  padding: 4rem;
+}
+
+.sec-1 .about .content {
+  display: grid;
+  gap: 2rem;
+}
+
+.sec-1 .about .img {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+}
+
+.sec-1 .about .img .myimg {
+  display: block;
+  border-radius: var(--bs-border-radius-circle);
+}
+
+.sec-1 .about .text {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+.sec-1 .about .text p {
+  text-align: justify;
+}
+
+.sec-2 .company img {
+  width: 150px;
+}
+
+.sec-1 .about .content .cv, .sec-1 .about .content .cv a {
+  text-align: center;
+  color: #FFBC80;
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+.sec-2 .work {
+  padding: 4rem;
+  background: var(--bs-black);
+  align-items: center;
+  justify-content: center;
+  color: var(--bs-white);
+}
+
+.sec-2 .work .text {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.sec-2 .work .r1 {
+  display: flex;
+  gap: 4rem;
+}
+
+.sec-2 .work .text-1 {
+  text-align: center;
+}
+
+.sec-2 .work .text-1 p, li {
+  text-align: justify;
+}
+
+.sec-3 .education {
+  padding: 4rem;
+  justify-content: center;
+}
+
+.sec-3 .education .text {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.sec-4 .contact {
+  padding: 4rem;
+  background: var(--bs-black);
+  color: var(--bs-white);
+  text-align: center;
+}
+
+.sec-4 .contact .text {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.sec-4 .contact .info {
+  display: grid;
+  gap: 1rem;
+}
+
+footer {
+  text-align: center;
+  color: var(--bs-white);
+  line-height: 3rem;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .sec-1 .about .content {
+    gap: 2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sec-1 .about .text {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sec-1 .about .img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .sec-1 .about .img .myimg {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 900px) and (orientation: landscape) {
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: space-around;
+  }
